@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    display:flex;
+}
+.logo{
+    background-color: #000000;
+    color: white;
+    width: 200px;
+    font-family: 'vibur';
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px 0px 25px;
+    box-sizing: border-box;
+}
+.logo:hover{
+    color: white;
+    text-decoration: none;
+}
+.menu-bar {
+    background-color: #000000;
+    color: white;
+    width: 165px;
+    height: 100vh;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+
+.menu-bar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.menu-bar a i {
+    margin-right: 10px;
+}
+.menu-bar a:nth-of-type(9){
+    margin-bottom:35vh;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.container2{
+    margin-left: 50px;
+}
+
+
+/* Style for post container */
+.post {
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: white;
+}
+.story{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+    margin: 15px;
+    border: 3px solid;
+    border-color: red blue purple yellow;
+}
+
+/* Style for profile image */
+.post img.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style for username */
+.post a.username {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Style for timestamp */
+.post a.timestamp {
+    color: #999;
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Style for ellipsis menu */
+.post a.ellipsis {
+    float: right;
+    color: #999;
+    text-decoration: none;
+}
+
+/* Style for post content image */
+.post img.post-content {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Style for post text */
+.post p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Style for action buttons */
+.post a.action-btn {
+    color: #333;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.post a#action{
+    margin: 60px;
+}
+.post a.Like{
+    color: rgb(0, 0, 0);
+}
+.post a.Comment{
+    color: black;
+}
+.post a.share{
+    color: rgb(0, 0, 0);
+}
+.post a.Like i{
+    color: rgb(255, 0, 0);
+}
+.post a.Comment i{
+    color: black;
+}
+.post a.share i{
+    color: rgb(6, 6, 173);
+}
